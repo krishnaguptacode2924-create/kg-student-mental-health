@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mindcare
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && npm ci --omit=dev
+    startCommand: node server.js
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.9
+      - key: NODE_VERSION
+        value: 24.14.0
+      - key: PYTHON_BIN
+        value: /opt/render/project/src/.venv/bin/python
