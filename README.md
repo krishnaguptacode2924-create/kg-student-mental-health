@@ -4,6 +4,25 @@ A three-page web app that takes 15 lifestyle, academic and personal inputs from 
 
 > **Educational prototype, not a diagnostic tool.** The models perform no better than guessing the most common class. Do not use the output to make decisions about anyone's health. If you are struggling, please talk to a qualified mental health professional.
 
+**Live demo:** https://mindcare-qj7t.onrender.com
+
+## Screenshots
+
+### Home Page
+![Home Page](docs/images/home1.png)
+![Home Page](docs/images/home2.png)
+
+### Assisment Page
+![Assisment Page](docs/images/assis1.png)
+![Assisment Page](docs/images/assis3.png)
+![Assisment Page](docs/images/assis4.png)
+
+### Result Page
+![Result Page](docs/images/result1.png)
+![Result Page](docs/images/result2.png)
+![Result Page](docs/images/result3.png)
+
+
 ## Features
 
 - **Three pages:** Home, Assessment, Results
